@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Super Calculadora</title>
+  </head>
+  <body>
+    <header>
+      <h1>Super Calculadora</h1>
+    </header>
+
+    <main>
+      <label for="number-a">Primeiro número (A)</label>
+      <input type="number" id="number-a" value="3" />
+
+      <label for="number-b">Segundo número (B)</label>
+      <input type="number" id="number-b" value="2" />
+
+      <button id="calc-button">Calcular</button>
+    </main>
+
+    <table>
+      <tbody>
+        <tr>
+          <th class="paragraph-result">
+            Soma
+            <div id="somaT"></div>
+          </th>
+          <th class="paragraph-result">
+            Subtração A - B
+            <div id="subAB"></div>
+          </th>
+          <th class="paragraph-result">
+            Subtração B - A
+            <div id="subBA"></div>
+          </th>
+        </tr>
+        <tr>
+          <th class="paragraph-result">
+            Multiplicação
+            <div id="multiAB"></div>
+          </th>
+          <th class="paragraph-result">
+            Divisão A / B
+            <div id="diviAB"></div>
+          </th>
+          <th class="paragraph-result">
+            Divisão B / A
+            <div id="diviBA"></div>
+          </th>
+        </tr>
+        <tr>
+          <th class="paragraph-result">
+            Potencia de A na base B
+            <div id="potentAB"></div>
+          </th>
+          <th class="paragraph-result">
+            Potencia de B na base A
+            <div id="potentBA"></div>
+          </th>
+          <th class="paragraph-result">
+            Raiz quadrada de A
+            <div id="raizA"></div>
+          </th>
+        </tr>
+        <tr>
+          <th class="paragraph-result">
+            Raiz quadrada de B
+            <div id="raizB"></div>
+          </th>
+          <th class="paragraph-result">
+            Fatorial de A
+            <div id="factorA"></div>
+          </th>
+          <th class="paragraph-result">
+            Fatorial de B
+            <div id="factorB"></div>
+          </th>
+        </tr>
+        <tr>
+          <th class="paragraph-result">
+            Porcentagem de A em relação a B
+            <div id="porcentAB"></div>
+          </th>
+          <th class="paragraph-result">
+            Porcentagem de B em relação a A
+            <div id="porcentBA"></div>
+          </th>
+          <th class="paragraph-result">
+            Média
+            <div id="mediaAB"></div>
+          </th>
+        </tr>
+      </tbody>
+    </table>
+
+    <script defer src="./js/script.js"></script>
+  </body>
+</html>

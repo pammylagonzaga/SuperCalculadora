@@ -1,0 +1,70 @@
+* {
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+    sans-serif;
+  align-items: center;
+  text-align: center;
+}
+
+body {
+  padding: 10px;
+  color: aliceblue;
+  background-color: black;
+}
+
+header {
+  color: rgb(15, 167, 15);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+div {
+  color: whitesmoke;
+  margin-top: 10px;
+}
+
+label {
+  color: rgb(207, 255, 136);
+  font-weight: bold;
+  display: inline;
+  font-size: 20px;
+  padding: 20px;
+}
+
+input {
+  background-color: rgb(229, 225, 225);
+  width: 120px;
+  font-size: 20px;
+}
+
+button {
+  color: black;
+  background-color: rgb(207, 255, 136);
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 6px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+table {
+  margin-bottom: 30px;
+}
+
+tbody {
+  background-color: rgb(59, 59, 59);
+  border-collapse: collapse;
+}
+
+th {
+  color: rgb(109, 91, 190);
+  font-size: 20px;
+  width: 450px;
+  height: 80px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+#paragraph-result {
+  margin-top: 5px;
+}
